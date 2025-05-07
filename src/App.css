@@ -1,0 +1,35 @@
+.app {
+  padding: 30px;
+  display: flex;
+}
+
+.app > div {
+  margin-right: 50px;
+}
+
+.error {
+  border: red 1px solid;
+}
+
+.error-message {
+  color: red;
+}
+
+.active-filter {
+  background-color: lightgreen;
+}
+
+.is-done {
+  opacity: 0.5;
+}
+
+.todolist-title {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.todolist-title-btn {
+	max-height: 30px;
+	background-color: rgb(240, 107, 107);
+}
